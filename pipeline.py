@@ -16,6 +16,10 @@ from readability import Document
 import requests
 from streamlit_card import card
 
+# deployment issues
+os.environ.pop("HTTP_PROXY", None)
+os.environ.pop("HTTPS_PROXY", None)
+
 def extract_main_content_from_url(url):
     # Fetch the HTML content from the URL
     response = requests.get(url)
