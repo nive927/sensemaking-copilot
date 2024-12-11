@@ -11,14 +11,14 @@ google-generativeai==0.7.2
 googleapis-common-protos==1.65.0
 jedi==0.18.1
 Jinja2==3.1.4
-litellm==1.52.10
+litellm==1.54.1 
 llvmlite==0.42.0
 lxml==5.2.1
 lxml_html_clean==0.4.1
 matplotlib==3.8.4
 nltk==3.8.1
 numpy==1.26.4
-openai==1.54.5
+openai==1.57.2
 pandas==2.2.2
 plotly==5.22.0
 readability-lxml==0.8.1
